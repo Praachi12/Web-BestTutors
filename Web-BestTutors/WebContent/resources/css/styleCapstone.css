@@ -1,0 +1,91 @@
+body {
+    background: #333;
+    color: #fff;
+}
+
+.navbar {
+    border-bottom: #008ed6 3px solid;
+    opacity: 0.8;
+}
+
+#home-section {
+    background: url(../images/child_taking_exam_0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+
+
+#home-section .dark-overlay {
+    position: relative;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#home-section .home-inner {
+    padding-top: 150px;
+}
+
+#home-section .description {
+
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+
+}
+
+#home-section .card-form {
+
+    background-color: burlywood;
+}
+
+
+#home-section .fas,
+#create-section .fas {
+    color: burlywood;
+    background: ;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+ 
+
+.course {
+
+    position: relative;
+
+}
+
+.course h1 {
+
+    margin: 2em;
+}
+
+.course .item {
+    position: relative;
+}
+
+.course .des {
+    background: #F97300;
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 93%;
+
+}
+
+.course .item:hover .des {
+    height: 100%;
+    background: #f973007d;
+    position: absolute;
+    width: 89%;
+    padding: 5em;
+    top: 0;
+    border-bottom-left-radius: 0;
+}
+
+
